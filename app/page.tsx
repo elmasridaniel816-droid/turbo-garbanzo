@@ -1,7 +1,7 @@
 // pages/page.tsx
 import React, { useState } from 'react';
 // Import the submit utility from src/utils/submit
-import { submitRefund } from '../src/utils/submit';
+import { handleFormSubmit } from "@/src/utils/submit";
 
 type RefundRequest = {
   firstName: string;
